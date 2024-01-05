@@ -1,0 +1,54 @@
+Configuration	capstone_1
+STM32CubeMX 	6.9.1
+Date	10/03/2023
+MCU	STM32F334R8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN11 Single-ended	ADC1_IN11	PB0
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+TIM2	PWM Generation CH3	TIM2_CH3	PB10
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+26	PB0	ADC1_IN11	
+29	PB10	TIM2_CH3	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN11 Single-ended	ADC1_IN11	PB0
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+TIM2	PWM Generation CH3	TIM2_CH3	PB10
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+26	PB0	ADC1_IN11	
+29	PB10	TIM2_CH3	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : capstone_1
+Project Folder : C:\Users\uig25453\STM32CubeIDE\Device_drivers\capstone_1
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F3 V1.11.4
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
